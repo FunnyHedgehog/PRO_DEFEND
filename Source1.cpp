@@ -30,9 +30,5 @@ int main()
 	cilk_for(int i = 0; i < myVector.size(); i++) {
 		*r << myVector[i] << "\t";
 	}
-
-
-
-
 	return 0;
 }
